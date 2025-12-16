@@ -23,11 +23,14 @@ export default function KulGuruPortfolio() {
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Daily Ram Raksha Stotra chanting by our dedicated Pandits to create a spiritual Kavach for your loved ones
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-wrap gap-4 justify-center">
             <a href="#pricing" className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition">
               Get Started - ₹1/Day
             </a>
-            <a href="/about" className="bg-white text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold border-2 border-orange-600 hover:bg-orange-50 transition">
+            <a href="https://www.youtube.com/@kulguruji" target="_blank" rel="noopener noreferrer" className="bg-red-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-700 transition flex items-center justify-center gap-2">
+              Watch Live
+            </a>
+            <a href="/about" className="bg-white text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold border-2 border-orange-600 hover:bg-orange-50 transition sm:w-auto w-full">
               Learn More
             </a>
           </div>

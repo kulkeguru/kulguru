@@ -3,32 +3,32 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 px-4">
+    <section id="contact" className="py-20 px-4 bg-white text-gray-900">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Contact Us</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">Contact Us</h2>
         <div className="grid md:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-gray-900">Get In Touch</h3>
+            <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
             <div className="space-y-4">
               <div className="flex items-start">
                 <Phone className="h-6 w-6 text-orange-600 mr-3 mt-1" />
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p className="text-gray-700">+91 XXXXX XXXXX</p>
+                  <p className="text-gray-700">+91 7877548479</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <Mail className="h-6 w-6 text-orange-600 mr-3 mt-1" />
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-gray-700">info@kulguru.com</p>
+                  <p className="text-gray-700">kulkeguru@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <MapPin className="h-6 w-6 text-orange-600 mr-3 mt-1" />
                 <div>
                   <p className="font-semibold">Address</p>
-                  <p className="text-gray-700">Your Address Here</p>
+                  <p className="text-gray-700">Ridhi Sidhi Complex 103, Madhuban, Udaipur, Rajasthan 313001.</p>
                 </div>
               </div>
             </div>
