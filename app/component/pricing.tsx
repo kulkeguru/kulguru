@@ -1,6 +1,9 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
 
+
+
+
 export default function Pricing() {
   return (
     <section id="pricing" className="py-20 px-4 bg-white">
@@ -32,11 +35,21 @@ export default function Pricing() {
               </li>
             </ul>
           </div>
-          <button className="mt-8 bg-white text-orange-600 px-12 py-4 rounded-lg text-xl font-bold hover:bg-orange-50 transition">
-            Start Your Family's Protection
-          </button>
+        <button
+  onClick={() =>
+    window.open(
+      'https://wa.me/917877548479?text=%F0%9F%99%8F%20Jai%20Shri%20Ram%0A%0AI%20would%20like%20to%20start%20Ram%20Raksha%20Stotra%20chanting%20for%20my%20family%20through%20Kulguru.%0A%0ADetails%3A%0A%E2%80%A2%20Name%3A%0A%E2%80%A2%20Age%3A%0A%E2%80%A2%20Gotra%3A%0A%E2%80%A2%20Address%3A%0A%E2%80%A2%20Number%20of%20family%20members%3A%0A%E2%80%A2%20Duration%20(Monthly%20%2F%20Daily)%3A%0A%0APlease%20guide%20me%20further.',
+'_blank'
+
+    )
+  }
+  className="mt-8 bg-white text-orange-600 px-12 py-4 rounded-lg text-xl font-bold hover:bg-orange-50 transition"
+>
+  Start Ram Raksha Protection
+</button>
+
           <p className="mt-6 text-orange-100 text-sm">
-            *₹30 per month per person - Cancel anytime
+            *₹30 per month per person .
           </p>
         </div>
       </div>
